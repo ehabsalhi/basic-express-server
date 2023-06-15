@@ -23,7 +23,6 @@ app.get('/', (req,res) =>{
 
 app.get('/person',validator, (req,res) =>{
      res.status(200).json({
-          message : "person route",
           name : req.name
      })
 })
